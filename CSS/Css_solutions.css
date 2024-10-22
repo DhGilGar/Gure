@@ -1,0 +1,294 @@
+@charset "utf-8";
+
+
+/* -------------------------------------------------Solutions--------------------------------------------------------*/
+
+/* -------------------------------------------------Solutions1--------------------------------------------------------*/
+
+
+ #Solutions_back1 {
+	
+	background: url("../images/big-data.jpg")no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Solutions1 {
+	 width: 100%;
+	 height: auto;
+	 background-color: #eeeeee;
+	 margin-bottom: 3.75em;
+	
+}	
+
+
+.Solutions1 .row_solutions {
+	 width: 90%;
+	 margin-right: auto;
+	 margin-left: auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	
+}
+
+.Solutions1 .row_solutions .title_bigblue_center{
+	 width: 100%;
+	height: auto;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	
+}
+
+
+.ContainerIT {
+	width: 100%;
+ }
+
+.Solutions1 .row_solutions .ITsolutions {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap:1.5rem;
+ }
+
+.row_solutions .ITsolutions .boxsolutions1 {
+	width: 13rem;
+	height: auto;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 2rem;
+	text-align: center;
+ }
+
+
+.ITsolutions .boxsolutions1 .iconsolutions {
+	margin-left: 6px;
+
+ }
+
+.ITsolutions .boxsolutions1 .iconsolutions img {
+	width: 70%;
+	height: auto;
+
+ }
+
+
+/* -------------------------------------------------Solutions2--------------------------------------------------------*/
+
+/* -------------------------------------------------Solutions3CLIENTS--------------------------------------------------------*/
+
+
+.Containersolutions4 {
+	background-color: #ffffff;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex:wrap;
+	gap:1,5rem;
+	margin-top: 1rem;
+	margin-right: auto;
+	margin-left: auto; 
+}	
+
+.stepsSolutions {
+	display: flex;
+	flex-wrap: wrap;
+	gap:1.5rem;
+	padding: 1rem 0;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	background-color: #ffffff;
+	margin-bottom: 2rem;
+
+}	
+
+.stepsSolutions  .boxstepssolutions {
+	flex: 1 1 15rem;
+	padding: 1rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	justify-content: center;
+	align-items: center;
+	background-color: #00a0df;
+	border-radius: 3rem;
+
+}
+
+.stepsSolutions  .boxstepssolutions img {
+	width: 150px;
+	height: 100px;
+	
+}
+
+.stepsSolutions  .boxstepssolutions.title20 {
+    width: 100%;
+	clear: both;
+}
+
+
+.stepsSolutions .boxstepssolutions .client_photo {
+    width: 30%;
+	clear: both;
+	height: auto;
+	border-radius: 50%;
+	border: 4px solid #ffffff;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -4rem;
+	
+
+}
+.stepsSolutions .boxstepssolutions .star_group {
+   width: 50%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   justify-content: space-between;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.stepsSolutions .boxstepssolutions .star_group img {
+   width:2rem;
+   height:2rem;
+}
+
+.stepsSolutions .boxstepssolutions .client_photo img {
+    width: 105%;
+	height: auto;
+}
+
+
+
+.stepsSolutions .boxstepssolutions .container_opnion {
+   	 background-color: #ffffff;
+	border-radius: 3rem;
+	padding: 2rem;
+	margin-top: 1rem;
+	text-align: center;
+
+	
+ }
+
+
+.stepsSolutions .boxstepssolutions .decoration {
+   	margin-left: 3rem;	
+ 
+
+}
+
+.stepsSolutions .boxstepssolutions .decoration img {
+   	width: 4rem;
+	height: auto;
+	
+ }
+
+
+
+/* -------------------------------------------------solutions6--------------------------------------------------------*/
+
+.container_general_info .container_center #languages {
+	background-color: #ffffff;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex:wrap;
+	gap:1,5rem;
+	margin-top: 2.875rem;	   
+}	
+
+#languages .steps_icons {
+	display: flex;
+	flex-wrap: wrap;
+	gap:1.5rem;
+	padding: 1rem 0;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}	
+
+#languages .steps_icons .boxsteps-icons {
+	flex: 1 1 5rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+#languages .steps_icons .boxsteps-icons img {
+	width: 50px;
+	
+}
+
+
+/* -------------------------------------------------REPONSIVE-------------------------------------------------------*/
+
+@media screen and (max-width: 500px) {
+
+
+	
+.title_main {
+    font-size: 1.5rem;
+}	
+

@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+
+
+#Image_Asis1 {
+    width: 100%;
+}
+
+#background_asis1 {
+    background: url("../images/asis1.jpg")no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+}
+
+#Image_Asis2 {
+    width: 10rem;
+}
+.road_asis {
+    height: 30rem;
+}
+
+.iconasis  {
+    width: 10rem;
+}
+
+
+.Icon_assistences{
+    width: 10rem;
+}
+
+.background_road {
+    background: url("../images/road-36.svg")no-repeat;
+
+} 
+
+.background_road:hover {
+    background: url("../images/road-37.svg")no-repeat;
+
+} 
+.background_road .box_text {
+  border-radius: 15px;
+}
+.background_road:hover .box_text {
+  animation: float 2s linear infinite;
+
+}
+
+
+@keyframes float {
+	0%, 100% {
+		transform: translateY(0rem)
+}
+50% {
+	transform: translateY(2rem)
+}
+}
+
+

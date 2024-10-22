@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+#backgroundIVA {
+    background: url("../images/vctorflecha.jpg")no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+
+}
+
+.image_IVA {
+    width: 100%;
+
+}

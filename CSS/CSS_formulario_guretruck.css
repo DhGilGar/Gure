@@ -1,0 +1,81 @@
+/* -------------------------------------------------Formulariocontacto--------------------------------------------------------*/
+
+.contact_us {
+	display: block;
+	position: relative;
+	width: 100%;  
+	font-family: "Verdana";
+	color:#ffffff;
+}
+
+.contact_us .parrafo {
+	margin: 12px;
+	text-align: center;
+}
+
+.contact_us .parrafo  textarea {
+	font-size: 14px; 
+	color: #595954;
+	border: 0;
+	width: 40%;
+	padding: 1rem;
+	font-family: "Verdana";
+}	
+
+.contact_us .parrafo  .entrada {
+	font-size: 14px; 
+	color: #595954;
+	border: 0;
+	width: 40%;
+	padding: 1rem;
+	font-family: "Verdana";
+}
+
+.contact_us .enviar {
+	padding: 6px 12px; 
+	margin: 14px; 
+	background-color: #00a0df;
+	color: #ffffff; 
+	font-size: 16px; 
+	font-weight: bold;  
+	cursor: pointer; 
+	border: 0; 
+	border-radius: 25px;
+	font-family: 'Verdana';
+}
+
+.contact_us .enviar:hover {
+	background-color:#035f86;
+}
+
+::placeholder {
+	background-color:#ffffff;
+	padding: 10px;
+}
+
+::-webkit-input-placeholder { /* Edge */
+   background-color:#ffffff;
+	padding: 10px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+background-color:#ffffff;
+	padding: 10px;
+}
+
+/* ------------------responsive-----------------------*/
+
+
+@media (max-width: 1119px) {
+
+
+.contact_us .parrafo  textarea {
+	width: 100%;
+}	
+.contact_us .parrafo  .entrada {
+	width: 100%;
+}
+	
+}
+
+

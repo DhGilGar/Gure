@@ -1,0 +1,33 @@
+@charset "utf-8";
+#image_TMS1 {
+  	width: 100%;
+}
+
+.TMS_left {
+  	margin-left: 3rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	background-color: white;
+	border-top-left-radius: 35px; 
+	border-bottom-left-radius: 35px;
+		box-shadow: 0 8px 8px -6px black;
+}
+
+.TMS_right {
+  	margin-right: 3rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	background-color: white;
+	border-top-right-radius: 35px; 
+	border-bottom-right-radius: 35px;
+	box-shadow: 0 8px 8px -6px black;
+}
+
+#background_TMS{
+    background: url("../images/897.jpg")no-repeat center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+
+}

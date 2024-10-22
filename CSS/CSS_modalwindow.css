@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.modal-content {
+	
+	background: #ffffff;
+	width: 30%;
+	color: aqua;
+	font-family: "Verdana";
+	font-size: 14px;
+	padding: 33px;
+	min-height: 250px;
+	border_radius:22px;
+	position:absolute;
+	display: none;
+	
+}

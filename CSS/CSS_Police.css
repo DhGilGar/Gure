@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.policebox {
+ height: 30rem;
+	padding: 3rem;
+	overflow: hidden;
+
+}
+
+.image_police{
+ width: 100%;
+}
+

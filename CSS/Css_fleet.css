@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+
+/* -------------------------------------------------* Stylestms*--------------------------------------------------------*/
+
+
+
+
+.containerInfoTMS {
+	width: 100%;
+	background-color: #ffffff;
+	position: relative;/*importante*/
+	height:98% ;
+}
+ .InfotextTMSGray {
+	width: 100%;
+	height: auto;
+	background-color: #eeeeee;
+	clear:both;
+	position: relative;
+}
+
+.containerTMS {
+	width: 90%;
+	height: auto;
+	display:flex;
+    justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+}
+
+
+.TMScontainerleft {
+	width: 31rem;
+	padding: 10px;
+	height: auto;
+}
+
+.TMScontainerright {
+	width: 31rem;
+	padding: 10px;
+	height: auto;
+}
+
+
+.TMScontainercenter {
+	width: 37.5rem;
+	background-color: none;
+	height: auto;
+	border-radius: 18.75;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.InfotextTMSGray .containerTMS .TMScontainerleft .tms1 {
+	background-color: #ffffff;
+	margin-bottom: 2.5rem;
+	margin-top: 2.5rem;
+	border-bottom-left-radius: 3.125rem;
+	border-top-left-radius: 3.125rem;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 100%;
+	height: auto;
+	box-shadow: 1px 1px 10px 1px #9b9b9b;
+	justify-content: center;
+	display: flex;
+	padding-right: 0.5rem;
+	padding-bottom:  0.5rem;
+	padding-top:  0.5rem;
+}
+
+.InfotextTMSGray .containerTMS .TMScontainerright .tms2 {
+	background-color: #ffffff;
+	margin-bottom: 2.5rem;
+	margin-top: 2.5rem;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 3.125rem;
+	border-top-right-radius: 3.125rem;
+	width: 100%;;
+	height: auto;
+	box-shadow: 1px 1px 10px 1px #9b9b9b;
+	display: flex;
+	padding-right: 0.5rem;
+	padding-bottom:  0.5rem;
+	padding-top:  0.5rem;
+}
+
+
+
+.TMScontainerleft .tms1 .text-fleet {
+	width: 60%;
+	margin-right: 6rem;
+	margin-top: 6rem;
+	
+}
+.TMScontainerleft .tms1 img {
+	width: 9rem;
+	height: 9rem;
+	margin-left: 0.5rem;
+}
+
+.TMScontainerright .tms2 .text-fleet {
+	width: 60%;
+	margin-right: 6rem;
+	margin-top: 6rem;
+}
+.TMScontainerright .tms2 img {
+	width: 9rem;
+	height: 9rem;
+	margin-left: 0.5rem;	
+}
+ 
+.InfoTMS2 {
+	width: 80%;
+	height: auto;
+	background-color: #fffff;
+	clear:both;
+	display:flex;
+    justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}
+
+
+.containerInfoTMS .InfoTMS2 .columnTMS {
+	border-left: thin solid #00a0df;
+	padding-left: 1rem;
+	height: auto;
+	margin-right: 1rem;
+	
+}
+
+
+.InfoTMSblue {
+	width: 100%;
+	height: auto;
+	background-color: #00a0df;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 6rem;
+	padding-right: 6rem;
+	margin-bottom:30px;
+}
+
+.contentinfotexttmsblue{
+	Float: left;
+	margin-left: 30px;
+	padding-left: 10px;
+	height: auto;
+	margin-top: 60px;
+}
+
+.containerInfoTMS .InfoTMSblue img {
+ 	width: 50%;
+	
+}
+
+.InfoTMSblue .contentinfotexttmsblue ul {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.InfoTMSblue .contentinfotexttmsblue img{
+	 width: 30%
+}
+
+
+
+
+/* -------------------------------------------------responsive--------------------------------------------------------*/
+
+
+@media screen and (max-width: 500px) {
+
+
+
+.TMScontainerleft {
+	width: 100%;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+	height: auto;
+}
+
+.TMScontainerright {
+	width: 100%;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+	height: auto;
+}
+
+
+.TMScontainercenter {
+	display:none;
+}
+
+.InfotextTMSGray .containerTMS .TMScontainerleft .tms1 {
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+	width: 100%;
+	padding: 0.2rem;
+}
+
+.InfotextTMSGray .containerTMS .TMScontainerright .tms2 {
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	border-radius: 5px;
+	width: 100%;
+	padding: 0.2rem;
+
+}
+
+
+
+.TMScontainerleft .tms1 .text-fleet {
+	width: 1000%;
+	margin-right: 0.5rem;
+	margin-top: 0.5rem;
+	
+}
+.TMScontainerleft .tms1 img {
+	width: 25%;
+	height: auto;
+	margin-left: 0.5rem;
+	clear: both;
+}
+
+.TMScontainerright .tms2 .text-fleet {
+	width: 70%;
+	margin-right: 6rem;
+	margin-top: 6rem;
+}
+.TMScontainerright .tms2 img {
+	width: 25%;
+	height: auto;
+	margin-left: 0.5rem;	
+}
+ 
+.InfoTMS2 {
+	width: 80%;
+	height: auto;
+	background-color: #fffff;
+	clear:both;
+	display:flex;
+    justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}
+
+
+.containerInfoTMS .InfoTMS2 .columnTMS {
+	border-left: thin solid #00a0df;
+	padding-left: 1rem;
+	height: auto;
+	margin-right: 1rem;
+	
+}
+
+
+.InfoTMSblue {
+	width: 100%;
+	height: auto;
+	background-color: #00a0df;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 6rem;
+	padding-right: 6rem;
+	margin-bottom:30px;
+}
+
+.contentinfotexttmsblue{
+	Float: left;
+	margin-left: 30px;
+	padding-left: 10px;
+	height: auto;
+	margin-top: 60px;
+}
+
+.containerInfoTMS .InfoTMSblue img {
+ 	width: 50%;
+	
+}
+
+.InfoTMSblue .contentinfotexttmsblue ul {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.InfoTMSblue .contentinfotexttmsblue img{
+	 width: 30%
+}
+
+
+
+}

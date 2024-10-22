@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+
+
+/* -------------------------------------------------CLOUD-------------------------------------------------------*/
+
+.Image_Cloud {
+	width: 100%;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+}
+
+
+.DCB {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+}
+
+
+
+.iconcloud {
+	width: 13rem;
+
+}

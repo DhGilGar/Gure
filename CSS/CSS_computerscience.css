@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+/* -------------------------------------------------ComputerScience--------------------------------------------------------*/
+
+ pre {
+	width: 100%;
+	height: auto;
+	padding: 0.7rem;
+	background-color: #00a0df;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 15px;
+}
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+#image_science1  {
+	width: 70%;
+}
+#image_science2  {
+	width: 50%;
+}
+
+#logo_science1  {
+	width: 100%;
+}
+
+#logo_science2  {
+	width: 100%;
+}
+
+#logo_science3  {
+	width: 100%;
+}
+
+#logo_science4  {
+	width: 100%;
+}
+
+#logo_science5  {
+	width: 50%;
+}
+
+
+.text_copy_red {
+	color: #FF0004;
+	font-family: "Verdana";
+	font-size: 0.875em;
+	line-height: normal;
+	margin-bottom: 1em;
+	margin-top: 1em;	
+}
+.title_bigred {
+    width: 100%;
+    height: auto;
+    margin-top: 0.875em;
+    font-family: "Verdana";
+    font-size: 2em;
+    color:#FF0004;
+	float: left;
+	clear: right;
+	font-weight: bold;
+}

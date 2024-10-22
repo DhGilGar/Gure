@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.calendar.col-md-12 .col-md-1 img {
+	width: 3rem;
+}
+.iconflag {
+	width: 7rem;
+}
+.list_country  {
+	border-radius: 15px;
+	padding: 0.5rem;
+	height: 8rem;
+}
+.list_country .col-md-12  {
+	border-radius: 15px;
+	box-shadow: 0 8px 8px -6px black;
+    background-color: #00a0df;
+	padding: 0.5rem;
+}
+a .col-md-12 .title_white_left.col-md-8{
+	padding: 0;
+}
+.list_country .col-md-12:hover  {
+	border-radius: 15px;
+	box-shadow: 0 8px 8px -6px black;
+    background-color: #035f86;
+	padding: 0.5rem;
+}
+.calendar{
+    background-color: #fff;
+    height:auto;
+    border: 15px solid #fff; /*marco*/
+    box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+}
+.calendar .date{
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+
+table {
+    background-color: transparent;
+}
+
+.fc-view-container *, .fc-view-container *:before, .fc-view-container *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.fc table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 1em;
+}
+
+.fc-view, .fc-view > table {
+    position: relative;
+    z-index: 1;
+}

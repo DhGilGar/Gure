@@ -1,0 +1,380 @@
+@charset "utf-8";
+
+#infograph {
+	width: 95%;
+	height: 340px;
+	background-color: #fffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+
+
+}
+
+
+.round-bar {
+	width: 100%;
+	height: 100px;
+	border-radius: 50px;
+}
+
+
+/* section1*/
+
+.round-bar .section-1 img {
+	float: left;
+	margin-left: 10px;
+	width: 145px;
+}
+.section-1 {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-36.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+	border-bottom-left-radius: 45px;
+	border-top-left-radius: 45px;
+	float: left;
+	
+}
+
+.section-1:hover {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-37.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+}
+
+.info {
+	position: absolute; /*Info sobre la imagen*/
+	filter: alpha(opacity=0); /*Opacidad Para IE */
+	opacity: 0; /*Inicialmente transparente */
+	color: #00a0df;
+	-moz-transition:all ease .3s; /*Aplicamos una ligera transición*/
+	-webkit-transition:all ease .3s ;
+	transition:all ease .3s;
+	font-family: "Verdana";
+}
+.section-1:hover .info {
+	filter: alpha(opacity=100);
+	opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
+	width: 100%;
+	margin-top: 2px;
+	height: auto;
+	padding-left: 10px;
+	border-left: thin dotted #00a0df;
+	color: #595954;
+	font-family: "Verdana";
+	font-size: 14px;
+	line-height: normal;
+
+}
+.round-bar .section-1 .title_white {
+	border: none;
+	text-align: left;
+	margin-top: 170px;
+	height: auto;
+	color: #00a0df;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+
+
+/* section2*/
+
+.round-bar .section-2 img {
+	float: left;
+	margin-left: 10px;
+		width: 145px;
+}
+.section-2 {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-36.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+	float: left;
+	
+}
+
+.section-2:hover {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-37.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+}
+
+.info {
+	position: absolute; /*Info sobre la imagen*/
+	filter: alpha(opacity=0); /*Opacidad Para IE */
+	opacity: 0; /*Inicialmente transparente */
+	color: #00a0df;
+	-moz-transition:all ease .3s; /*Aplicamos una ligera transición*/
+	-webkit-transition:all ease .3s ;
+	transition:all ease .3s;
+	font-family: "Verdana";
+}
+.section-2:hover .info {
+	filter: alpha(opacity=100);
+	opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
+	width: 100%;
+	margin-top: 2px;
+	height: auto;
+	padding-left: 10px;
+	border-left: thin dotted #00a0df;
+	color: #595954;
+	font-family: "Verdana";
+	font-size: 14px;
+	line-height: normal;
+
+}
+.round-bar .section-2 .title_white {
+	border: none;
+	text-align: left;
+	margin-top: 170px;
+	height: auto;
+	color: #00a0df;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+/* section3*/
+
+.round-bar .section-3 img {
+	float: left;
+	margin-left: 10px;
+		width: 145px;
+}
+.section-3 {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-36.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+	float: left;
+	
+}
+
+.section-3:hover {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-37.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+}
+
+.info {
+	position: absolute; /*Info sobre la imagen*/
+	filter: alpha(opacity=0); /*Opacidad Para IE */
+	opacity: 0; /*Inicialmente transparente */
+	color: #00a0df;
+	-moz-transition:all ease .3s; /*Aplicamos una ligera transición*/
+	-webkit-transition:all ease .3s ;
+	transition:all ease .3s;
+	font-family: "Verdana";
+}
+.section-3:hover .info {
+		filter: alpha(opacity=100);
+	opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
+	width: 100%;
+	margin-top: 2px;
+	height: auto;
+	padding-left: 10px;
+	border-left: thin dotted #00a0df;
+	color: #595954;
+	font-family: "Verdana";
+	font-size: 14px;
+	line-height: normal;
+
+}
+.round-bar .section-3 .title_white {
+	border: none;
+	text-align: left;
+	margin-top: 170px;
+	height: auto;
+	color: #00a0df;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+
+/* section4*/
+
+.round-bar .section-4 img {
+	float: left;
+	margin-left: 10px;
+    width: 145px;
+}
+.section-4 {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-36.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+	float: left;
+	
+}
+
+.section-4:hover {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-37.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+}
+
+.info {
+	position: absolute; /*Info sobre la imagen*/
+	filter: alpha(opacity=0); /*Opacidad Para IE */
+	opacity: 0; /*Inicialmente transparente */
+	color: #00a0df;
+	-moz-transition:all ease .3s; /*Aplicamos una ligera transición*/
+	-webkit-transition:all ease .3s ;
+	transition:all ease .3s;
+	font-family: "Verdana";
+}
+.section-4:hover .info {
+		filter: alpha(opacity=100);
+	opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
+	width: 100%;
+	margin-top: 2px;
+	height: auto;
+	padding-left: 10px;
+	border-left: thin dotted #00a0df;
+	color: #595954;
+	font-family: "Verdana";
+	font-size: 14px;
+	line-height: normal;
+
+}
+.round-bar .section-4 .title_white {
+	border: none;
+	text-align: left;
+	margin-top: 170px;
+	height: auto;
+	color: #00a0df;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+
+/* section5*/
+
+.round-bar .section-5 img {
+	float: left;
+	margin-left: 10px;
+	width: 145px;
+}
+.section-5 {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-36.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+	border-bottom-right-radius: 45px;
+	border-top-right-radius: 45px;
+	float: left;
+	
+}
+
+.section-5:hover {
+	width: 20%;
+	height: 100px;
+	background-image: url("../images/road-37.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative; /*Para poder ubicar la info dentro de la caja*/
+}
+
+.info {
+	position: absolute; /*Info sobre la imagen*/
+	filter: alpha(opacity=0); /*Opacidad Para IE */
+	opacity: 0; /*Inicialmente transparente */
+	color: #00a0df;
+	-moz-transition:all ease .3s; /*Aplicamos una ligera transición*/
+	-webkit-transition:all ease .3s ;
+	transition:all ease .3s;
+	font-family: "Verdana";
+}
+.section-5:hover .info {
+		filter: alpha(opacity=100);
+	opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
+	width: 100%;
+	margin-top: 2px;
+	height: auto;
+	padding-left: 10px;
+	border-left: thin dotted #00a0df;
+	color: #595954;
+	font-family: "Verdana";
+	font-size: 14px;
+	line-height: normal;
+
+}
+.round-bar .section-5 .title_white {
+	border: none;
+	text-align: left;
+	margin-top: 170px;
+	height: auto;
+	color: #00a0df;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#infograph .numbers_assistences .Numbers {
+	width: 20%;
+	color: #00a0df;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-size: 40px;
+	float:left;
+	text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+	
+
+
+
+.round-bar .section-1 img {
+	float: left;
+	margin-left: 5px;
+	width: 45px;
+}
+
+.round-bar .section-2 img {
+	float: left;
+	margin-left: 5px;
+	width: 45px;
+}
+.round-bar .section-3 img {
+	float: left;
+	margin-left: 5px;
+	width: 45px;
+}
+.round-bar .section-4 img {
+	float: left;
+	margin-left: 5px;
+	width: 45px;
+}
+.round-bar .section-5 img {
+	float: left;
+	margin-left: 5px;
+	width: 45px;
+}
+
+}

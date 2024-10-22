@@ -1,0 +1,117 @@
+
+.InfotextHead {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}
+.InfotextHead {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}.InfotextHead {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}.InfotextHead {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}
+.InfotextHead {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}
+.InfotextHead {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse;
+}@charset "utf-8";
+
+
+/* -------------------------------------------------services--------------------------------------------------------*/
+ .containerServices {
+    width: 100%;
+    height: auto;
+	padding: 0;
+	margin: 0;
+	 background: #ffffff;
+}
+
+
+ .containerServices #video_services{
+    width: 100%;
+    height: 100%;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	background: #ffffff;
+	 
+}
+
+ .containerServices .Containerallservices {
+    width: 80%;
+    height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+
+
+.stepsservices {
+	display: flex;
+	flex-wrap: wrap;
+	gap:1.5rem;
+	padding-top: 7rem;
+	padding-bottom: 6rem;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+
+}	
+
+.stepsservices .boxstepsservices {
+	flex: 1 1 15rem;
+	padding: 0.5rem;
+	text-align: center;
+	width: 10rem;
+	border-radius: 15px;
+	margin:0.5rem;
+	background: url("../images/fondo_opacity.png")100%;
+}
+
+.stepsservices .boxstepsservices img {
+	width: auto;
+	height: 150px;
+	
+}
+
+.stepsservices .boxstepsservices .title20 {
+    width: 100%;
+	clear: both;
+}
+
+.boxstepsservices a .title_white {
+    margin-bottom: 0;
+	height: auto;
+}
+
+.stepsservices .boxstepsservices:hover img {
+	animation: iconoffice 1s linear infinite;
+	
+}

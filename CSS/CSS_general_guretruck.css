@@ -1,0 +1,690 @@
+@charset "utf-8";
+
+body {
+	margin: 0;
+  	background-color:  #ffffff;
+	height: auto;
+	width: 100%;
+}
+.main_container {
+  	background-color: #ffffff;
+	height: auto;
+	width: 100%;
+	margin-top: 9rem;
+	overflow: hidden;
+}
+
+/* ------------------ROW_containers-----------------------*/
+.blue_line {
+	background-color: #00a0df;
+    height:0.3rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+.white_line {
+	background-color: #ffffff;
+    height:0.3rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+.none_line {
+	background-color: none;
+    height:0.3rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+.row {
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.title {
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+
+
+.container {
+	padding-left:  15%;
+	padding-right: 15%;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.white {
+	background-color: #ffffff;
+}
+.grey {
+	background-color: #eeeeee;
+}
+.blue {
+ 	background-color: #00a0df;
+}
+.black {
+ 	background-color: #000000;
+	height: 80rem;
+}
+.red {
+ 	background-color: #FF0004;
+	height: 2rem;
+}
+
+
+.blue_box:hover {
+ 	background-color: #035f86;
+	padding: 1rem;
+
+}
+
+.blue_box {
+ 	background-color: #00a0df;
+	padding: 1rem;
+}
+/* ------------------servicesbox-----------------------*/
+.services_box {
+	padding: 2rem;
+}
+
+.services_box:hover {
+	padding: 2rem;
+		-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+	transition: all 0.5s ease;
+}
+.box {
+	background-color: #eeeeee;
+	padding: 0;
+	box-shadow: 0 8px 8px -4px black;
+
+}
+
+.blue_box {
+	height: 15rem;
+}
+
+
+.services_box2 {
+	background-color: #ffffff;
+	padding: 2rem;
+	border: thin solid #eeeeee;
+	height: 23rem;
+}
+
+.services_box2:hover {
+	background-color: #00a0df;
+	padding: 2rem;
+	transition: all 0.5s ease;
+}
+.services_box2:hover .title20_center {
+	color: #ffffff;
+}
+
+.services_box2:hover .title20 {
+	color: #ffffff;
+}
+/* -------------------------------------------------text_styles-----------------------------*/
+.Guretruck-blue {
+	color: #00a0df;
+	font-family: "Verdana";
+	font-size: 1.5rem;
+	line-height: normal;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	height: auto;
+}
+
+.title_main {
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    font-family: "Verdana";
+    font-size: 4rem;
+    color: #035f86;
+	text-align: center;	
+	font-weight: bold;
+}
+
+.title_mainwhite {
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+    font-family: "Verdana";
+    font-size: 4rem;
+    color: #ffffff;
+	text-align: center;	
+	font-weight: bold;
+}
+
+
+.text_copy {
+	color: #595954;
+	font-family: "Verdana";
+	font-size: 1.5rem;
+	line-height: normal;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	height: auto;
+}
+.text_copy_center {
+	color: #595954;
+	font-family: "Verdana";
+	font-size: 1.5rem;
+	line-height: normal;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	height: auto;
+	text-align: center;
+}
+.text_copy_white {
+	color: #ffffff;
+	font-family: "Verdana";
+	font-size: 1.5rem;
+	line-height: normal;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	height: auto;
+}
+.text_copy_white_center {
+	color: #ffffff;
+	font-family: "Verdana";
+	font-size: 1.5rem;
+	line-height: normal;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	height: auto;
+	text-align: center;
+}
+ .title_bigblue_center {
+    font-family: "Verdana";
+    font-size:  2rem;
+    color: #00a0df;
+    text-align: center;
+	font-weight: bold;
+}
+
+.title_bigblue {
+	width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    font-family: "Verdana";
+    font-size: 2rem;
+    color: #00a0df;
+	float: left;
+	clear: right;
+	font-weight: bold;
+}
+.title_bigwhite {
+    width: 100%;
+    font-family: "Verdana";
+    font-size: 2rem;
+    color: #ffffff;
+    float: left;
+    clear: right;
+    font-weight: bold;
+	 margin-bottom: 0.5rem;
+    margin-top: 1rem;
+	
+}
+ .title_bigwhite_center {
+    height: auto;
+    margin-bottom: 1rem;
+	 margin-top: 1rem;
+    font-family: "Verdana";
+    font-size:  2rem;
+    color: #ffffff;
+    text-align: center;
+	 font-weight: bold;
+
+
+}
+.title_white {
+	font-family: "Verdana";
+	font-size: 1.5rem;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	height: auto;
+	margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.title_white_left {
+	font-family: "Verdana";
+	font-size: 1.5rem;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	height: auto;
+	margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.title20 {
+    font-family: "Verdana";
+    font-size: 1.5rem;
+    color: #00a0df;
+    clear: both;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    font-weight: bold;
+}
+.title20_center {
+    font-family: "Verdana";
+    font-size: 1.5rem;
+    color: #00a0df;
+    clear: both;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    font-weight: bold;
+	text-align: center;
+}
+.title20_dark {
+	font-family: "Verdana";
+	font-size: 1.5rem;
+ 	color: #035f86;
+	clear:right;
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+/* -------------------------------------------------HEAD ALL PAGES SERVICES--------------- ---------------------*/
+.mx-auto_Horizontal {
+  display: flex;  /*display: flex; el cual vuelve al contenedor un elemento flex*/
+  
+  align-items: center;  /*justify-content: center; le decimos a los elementos del contenedor flex que se ubiquen al centro del eje principal eje horizontal*/
+  
+  justify-content: center; /*align-items: center; estamos diciendo que queremos que los elementos dentro del contenedor flex se ubiquen en el centro del eje secundario eje vertical*/
+}
+
+.mx-auto{
+  display: flex;  /*display: flex; el cual vuelve al contenedor un elemento flex*/
+  
+  align-items: center;  /*justify-content: center; le decimos a los elementos del contenedor flex que se ubiquen al centro del eje principal eje horizontal*/
+	
+	min-height: 100%;  /*min-height: 100vh; que significa tome como altura mínima del contenedor el total del alto de la ventana del navegador web utilizado.*/
+}
+
+
+/* -------------------------------------------------Buttonsreadmore--------------------------------------------------------*/
+
+
+ a .btn.button-blue {
+ 	 background: #00a0df;
+	 width: auto;
+	 height: auto;
+	 border-radius:15px;
+	 border: none;
+	 margin-top: 1rem;
+	  margin-bottom: 1rem;
+	 padding: 1rem;
+	 float: left;
+	 display: flex;
+	 margin-right: 1rem;
+}
+
+ a:hover .btn.button-blue {
+ 	 background: #035f86;
+	 transition: 1s all; 
+}
+
+a .btn.button-blue img {
+ 	width: 2rem;
+	height: 2rem;
+	float:right;
+	margin: 0.3rem;
+}
+a:hover .btn.button-blue img {
+   	animation: tikmove 1s linear;
+}
+
+.text-buttons_white {
+    font-family: "Verdana";
+    font-size: 1.5rem;
+    color: #ffffff;
+    clear: both;
+    margin: 0.3rem;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+
+
+ a .btn.button-white {
+ 	 background: #ffffff;
+	 width: auto;
+	 height: auto;
+	 border-radius:15px;
+	 border: none;
+	 margin-top: 1rem;
+	  margin-bottom: 1rem;
+	 padding: 1rem;
+	 float: left;
+	 display: flex;
+	 margin-right: 1rem;
+}
+
+ a:hover .btn.button-white {
+ 	 background: #035f86;
+	 transition: 1s all; 
+}
+
+a .btn.button-white img {
+ 	width: 2rem;
+	height: 2rem;
+	float:right;
+	margin: 0.3rem;
+}
+a:hover .btn.button-white img {
+   	animation: tikmove 1s linear;
+}
+
+.text-buttons_blue {
+    font-family: "Verdana";
+    font-size: 1.5rem;
+    color: #00a0df;
+    clear: both;
+    margin: 0.3rem;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* -------------------------------------------------photohover--------------------------------------------------------*/
+.photohover.col-md-6  {
+
+position: relative;
+overflow: hidden;
+cursor: pointer;
+padding: 0;
+
+
+}
+ .photohover.col-md-6 {
+position: relative;
+overflow: hidden;
+}
+
+.info {
+ display: none;
+ position: absolute;
+ bottom: 0;
+ z-index: 10;
+ background: rgba(0, 0, 0, 0.5);
+ width: 100%;
+ color: #FFF;
+ height: 100%;
+ padding-top: 15rem;
+}
+
+
+ .photohover.col-md-6:hover .info {
+display: block;
+}
+
+
+.photohover.col-md-6  {
+
+position: relative;
+overflow: hidden;
+cursor: pointer;
+
+}
+
+/* -------------------------------------------------head--------------------------------------------------------*/
+#Head_container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.carta-box {
+  width: 9.25rem;
+  height: 9.25rem;
+  position: relative;
+  perspective: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.875em;
+}
+
+.carta-box:hover .carta {
+    transform: rotateY(180deg);
+}
+
+.carta {
+  transform-style: preserve-3d;
+  transition: all 1s linear;
+}
+
+.cara {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cara.detras {
+  transform: rotateY(180deg);
+}
+
+.carta .cara img {
+  width: 9rem;
+  height: 9rem;
+}
+.carta .cara.detras img {
+  width: 9rem;
+  height: 9rem;
+}
+
+/* -------------------------------------------------tik--------------------------------------------------------*/
+
+ .content_tik .text_tik {
+   float: left;
+	height: auto;
+	
+
+}	
+.content_tik {
+   margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	padding: 0;
+	
+}	
+.content_tik .text_tik .title20 {
+   margin-top: 1rem;
+	
+}	
+
+
+
+.content_tik .tik_container img {
+	width: 30px;
+	margin-top: 1rem;
+
+	
+}
+
+.content_tik .tik_container .tik_circle {
+	width: 20px;
+	margin-top: 1rem;
+
+	
+}
+
+
+/* ------------------Livechat-----------------------*/
+
+#chat-widget-container {
+	width: 8rem;
+	background-color: #035f86;
+	margin-top: 1rem;
+	z-index: 8000;
+	position: fixed;
+	bottom: 6rem;
+	right: 0;
+	padding: 1rem;
+	border-radius: 15px;
+		margin-right: 10px; 
+}
+
+#livechat-eye-catcher {
+	position: fixed;
+	visibility: visible;
+	z-index: 8000;
+	 background: transparent; 
+	border: 0px; 
+	padding: 10px 10px 0px 0px; 
+	float: left; 
+	margin-right: -10px; 
+	backface-visibility: hidden; 
+	bottom: 15rem; 
+	right: 10px;
+}
+
+#livechat-eye-catcher-img {
+	display: block; 
+	overflow: hidden; 
+	cursor: pointer;
+} 
+
+#livechat-eye-catcher-img img {
+	display: block; 
+	border: 0px; 
+	float: right; 
+	width: 202px;
+	height: 116px;
+} 
+
+
+
+/* ------------------------------------------------------------Media-------------------------------------------------------------------------------*/
+@media(max-width:1400px){
+	
+.container {
+	padding-left:  5%;
+	padding-right: 5%;
+}
+}
+	
+	
+	
+@media(max-width:1024px){
+	
+
+
+	
+/* -------------------------------------------------head--------------------------------------------------------*/
+#Head_container {
+    margin-top: 12rem;
+}	
+
+	
+	
+.blue_line {
+	margin-bottom: 0.3rem;
+	margin-top: 0.3rem;
+}
+
+.white_line {
+	margin-bottom: 0.3rem;
+	margin-top: 0.3rem;
+}	
+/* -------------------------------------------------text_styles-----------------------------*/
+.Guretruck-blue {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+.title_main {
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    font-size: 2rem;
+}
+
+.title_mainwhite {
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    font-size: 2rem;
+}
+
+
+.text_copy {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+.text_copy_center {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+.text_copy_white {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+.text_copy_white_center {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+ .title_bigblue_center {
+    font-size:  1.5rem;
+}
+
+.title_bigblue {
+    font-size:  1.5rem;
+		margin-bottom: 0.5rem;
+	margin-top: 1rem;
+}
+.title_bigwhite {
+    font-size:  1.5rem;
+
+	
+}
+ .title_bigwhite_center {
+    font-size:  1.5rem;
+}
+	
+.title_white {
+	font-size:  1.5rem;
+}
+.title_white_left {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.title20 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+.title20_center {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.title20_dark {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}	
+	
+} 
+
+@media(max-width:992px){
+	
+.container {
+	padding-left:  3%;
+	padding-right: 3%;
+}
+	.blue_box {
+		height: 11rem;
+	}
+	.services_box2 {
+		height: 23rem;
+}
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#image_tacho1 {
+  	width: 100%;
+}
+#image_tacho2 {
+  	width: 100%;
+}
+
+#image_tacho3 {
+  	width: 100%;
+}
+#image_tacho4 {
+  	width: 100%;
+}
+
+#image_tacho5 {
+  	width: 100%;
+}
+#background_tacho1 {
+    background: url("../images/gurecard1.jpg")no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+}
+
+.icontacho {
+  	width: 10rem;
+}

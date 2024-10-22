@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+#Image_Gurecard1 {
+    width: 100%;
+}
+#Image_Gurecard2 {
+    width: 100%;
+}
+
+#Image_Gurecard3 {
+    width: 100%;
+}
+#background_gurecard1 {
+    background: url("../images/gurecard1.jpg")no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+}
+
+.iconcard {
+	width: 45rem;
+	padding: 0;
+}

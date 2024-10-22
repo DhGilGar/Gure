@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+#background_MP {
+    background: url("../images/MP_banner.jpg")no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+
+}
+
+#flagmp {
+    width: 50%;
+}
+
+.image_MP {
+    width: 100%;
+}
+
+#image_MP2{
+    width: 100%;
+}
+
+#image_MP3 {
+    width: 100%;
+}
+
+.iconMP {
+    width: 100%;
+}

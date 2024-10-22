@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+#Image_legal1{
+	width: 100%;
+}
+
+#Image_legal2{
+	width: 100%;
+}
+
+#Image_legal3{
+	width: 100%;
+}
+.iconlegal{
+	width: 15rem;
+}
+
+
+#background_Legal{
+    background: url("../images/banner_legal.jpg")no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+	background-size: cover;
+
+}
